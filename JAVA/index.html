@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jeu de mémoire — Couleurs</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Jeu de couleurs</h1>
+    <p class="lead">Retourne les cartes et retrouve les paires de couleurs.</p>
+
+    <div class="controls">
+      <button id="startBtn" class="btn">Démarrer / Réinitialiser</button>
+      <div class="info">
+        <span>Coups: <strong id="moves">0</strong></span>
+        <span>Paires: <strong id="pairs">0</strong>/8</span>
+      </div>
+    </div>
+
+    <section id="board" class="board"></section>
+
+    <footer>
+      <p class="note">Jean-charles Judner</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
